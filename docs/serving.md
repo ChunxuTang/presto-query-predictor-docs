@@ -1,6 +1,6 @@
 # Model Serving
 
-The `presto-query-predictor` package implemented a Flask web application for 
+The `presto-query-predictor` package implemented a Flask web application for
 model serving. The service is encapsulated in the `predictor_app` variable,
 which can be easily used by running
 

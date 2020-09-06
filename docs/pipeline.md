@@ -6,7 +6,7 @@ A typical machine learning pipeline may contain data loading, data transformatio
 training(train-dev)/testing datasets splitting, vectorization, classification/
 regression, etc.
 
-In the `presto-query-predictor` package, the `Pipeline` class provides a 
+In the `presto-query-predictor` package, the `Pipeline` class provides a
 high-level interface to create a model training pipeline without the necessity to
 program in each detailed step. The dataset path or dataset, the transformer
 config path, and the trainer config path are the input parameters for a ``Pipeline``
@@ -45,9 +45,9 @@ pp.pprint(cpu_pipeline.report)
 
 ## Datasets
 
-The package contains a faked dataset created with some TPC-H SQL queries. The 
-faked dataset has 22 samples with columns: *query_id, user_, source, environment, 
-catalog, query_state, query, peak_memory_bytes, and cpu_time_ms*. The dataset 
+The package contains a faked dataset created with some TPC-H SQL queries. The
+faked dataset has 22 samples with columns: *query_id, user_, source, environment,
+catalog, query_state, query, peak_memory_bytes, and cpu_time_ms*. The dataset
 can be loaded through the `load_tpch` method.
 
 ``` python
@@ -80,8 +80,8 @@ persist_path: clean.csv     # Persistence path
 
 ## Model Training
 
-We apply data vectorization to the query strings in the transformed dataset. 
-For now, based on the [`scikit-learn`](https://scikit-learn.org/stable/) vectorizers, the package supports 
+We apply data vectorization to the query strings in the transformed dataset.
+For now, based on the [`scikit-learn`](https://scikit-learn.org/stable/) vectorizers, the package supports
 
 * `DataCountVectorizer` - token count approach
 * `DataTfidfVectorizer` - TF-IDF (term frequency-inverse document frequency) approach

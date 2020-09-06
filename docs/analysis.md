@@ -1,7 +1,7 @@
 # Log Analysis
 
 Usually, we would like to implement an exploratory analysis on the dataset to gain
-insights before creating an end-to-end machine learning pipeline. The 
+insights before creating an end-to-end machine learning pipeline. The
 `presto-query-predictor` contains a Jupyter notebook to achieve that analysis.
 
 It contains

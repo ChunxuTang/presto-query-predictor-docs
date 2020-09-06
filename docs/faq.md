@@ -20,6 +20,6 @@ for more details.
 
 Hyperparameter tuning is a necessary step to obtain an ideal model. As the purpose
 of this package is to create an end-to-end ML pipeline for Presto query prediction
-in the production environment, for now, we only provide limited support for tuning of `RandomForestClassifer`and `LogisticRegressionClassifier`. 
+in the production environment, for now, we only provide limited support for tuning of `RandomForestClassifer`and `LogisticRegressionClassifier`.
 
 Any contributions are appreciated!

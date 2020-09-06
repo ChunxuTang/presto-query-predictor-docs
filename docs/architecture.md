@@ -2,7 +2,7 @@
 
 The high-level design of the package is shown below.
 
-<img src="/img/architecture.png" width="600">
+<img src="docs/img/architecture.png" width="600">
 
 In general, the package encapsulates two machine learning models trained from
 historical Presto queries into a web-based predictor service to predict CPU

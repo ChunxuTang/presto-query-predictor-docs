@@ -12,7 +12,7 @@ and memory usages of Presto queries.
 
 ## Installation
 
-After cloning the GitHub repository, 
+After cloning the GitHub repository,
 
 ``` bash
     pip3 install -e .  # Installs the presto-query-predictor package locally
@@ -46,7 +46,7 @@ python3 train.py
 ```
 
 !!! warning
-    The *presto-query-predictor* package can only be executed in a Python 3 
+    The *presto-query-predictor* package can only be executed in a Python 3
     environment. It does not support Python 2.
 
 Afterward, the trained models should be generated in the `models` folder, including
@@ -63,7 +63,7 @@ By default, the vectorizers are trained from the **TF-IDF** algorithm, and the m
 are trained from **XGBoost** classifiers. The dataset used for training is a
 faked dataset based on the TPC-H benchmark with only 22 samples.
 
-### Serving 
+### Serving
 
 After running
 
@@ -71,9 +71,9 @@ After running
 python3 app.py
 ```
 
-A [Flask](https://flask.palletsprojects.com/) web application should be created 
-at [http://0.0.0.0:8000/](http://0.0.0.0:8000/). 
-There is a web UI for the application where you can fill in the form with a 
+A [Flask](https://flask.palletsprojects.com/) web application should be created
+at [http://0.0.0.0:8000/](http://0.0.0.0:8000/).
+There is a web UI for the application where you can fill in the form with a
 query for resources prediction.
 
-<img src="/img/web-app.png" width="500">
+<img src="docs/img/web-app.png" width="500">
