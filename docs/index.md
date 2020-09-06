@@ -76,4 +76,4 @@ at [http://0.0.0.0:8000/](http://0.0.0.0:8000/).
 There is a web UI for the application where you can fill in the form with a
 query for resources prediction.
 
-<img src="docs/img/web-app.png" width="500">
+<img src="https://github.com/ChunxuTang/presto-query-predictor-docs/blob/master/docs/img/web-app.png?raw=true" width="500">
